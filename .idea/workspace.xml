@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4acfd4a1-aa7c-4ca6-82bc-d5b891b80e37" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +22,41 @@
   <component name="FavoritesManager">
     <favorites_list name="test" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="wtrecurringorders.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wtrecurringorders.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2295">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1480081961001" expanded="true" signature="3716:4446" placeholder="CREATE TABLE... IF" />
+                <marker date="1480081961001" expanded="true" signature="4545:5109" placeholder="CREATE TABLE... IF" />
+                <marker date="1480081961001" expanded="true" signature="5208:5630" placeholder="CREATE TABLE... IF" />
+                <marker date="1480081961001" expanded="true" signature="5729:6237" placeholder="CREATE TABLE... IF" />
+                <marker date="1480081961001" expanded="true" signature="6415:6494" placeholder="DROP TABLE I... " />
+                <marker date="1480081961001" expanded="true" signature="6562:6632" placeholder="DROP TABLE I... " />
+                <marker date="1480081961001" expanded="true" signature="6700:6765" placeholder="DROP TABLE I... " />
+                <marker date="1480081961001" expanded="true" signature="6833:6925" placeholder="DROP TABLE I... " />
+                <marker date="1480081961001" expanded="true" signature="21252:21445" placeholder="SELECT rp.* ${_DB_PREFIX_}recurring_products" />
+                <marker date="1480081961001" expanded="true" signature="21632:21848" placeholder="SELECT rp.* ${_DB_PREFIX_}recurring_products" />
+                <marker date="1480081961001" expanded="true" signature="22043:22190" placeholder="SELECT dp.* ${_DB_PREFIX_}product_disabled_for_recurrence" />
+                <marker date="1480081961001" expanded="true" signature="22392:22764" placeholder="SELECT o.`id... ${_DB_PREFIX_}" />
+                <marker date="1480081961001" expanded="true" signature="28118:28399" placeholder="SELECT rp.* ${_DB_PREFIX_}recurring_products" />
+                <marker date="1480081961001" expanded="true" signature="30991:31196" placeholder="SELECT h.* F... ${_DB_PREFIX_}hash" />
+                <marker date="1480081961001" expanded="true" signature="31493:31701" placeholder="SELECT h.wt_... ${_DB_PREFIX_}hash" />
+                <marker date="1480081961001" expanded="true" signature="33786:34012" placeholder="SELECT h.id_... ${_DB_PREFIX_}hash" />
+                <marker date="1480081961001" expanded="true" signature="34310:34519" placeholder="SELECT COUNT... ${_DB_PREFIX_}orders" />
+                <marker date="1480081961001" expanded="true" signature="34599:34810" placeholder="SELECT COUNT... ${_DB_PREFIX_}orders" />
+                <marker date="1480081961001" expanded="true" signature="34898:36367" placeholder="SELECT DATE_... ${_DB_PREFIX_}" />
+                <marker date="1480081961001" expanded="true" signature="41614:41762" placeholder="SELECT l.id_... ${_DB_PREFIX_}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -32,10 +67,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="22" />
-    <option name="width" value="1932" />
-    <option name="height" value="1066" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -63,7 +98,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -72,8 +106,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -81,29 +126,45 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4acfd4a1-aa7c-4ca6-82bc-d5b891b80e37" name="Default" comment="" />
       <created>1480080971916</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1480080971916</updated>
+      <workItem from="1480081967339" duration="437000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="437000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1932" height="1066" extended-state="0" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33388612" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -112,5 +173,52 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/actions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtrecurringorders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2295">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1480081961001" expanded="true" signature="3716:4446" placeholder="CREATE TABLE... IF" />
+            <marker date="1480081961001" expanded="true" signature="4545:5109" placeholder="CREATE TABLE... IF" />
+            <marker date="1480081961001" expanded="true" signature="5208:5630" placeholder="CREATE TABLE... IF" />
+            <marker date="1480081961001" expanded="true" signature="5729:6237" placeholder="CREATE TABLE... IF" />
+            <marker date="1480081961001" expanded="true" signature="6415:6494" placeholder="DROP TABLE I... " />
+            <marker date="1480081961001" expanded="true" signature="6562:6632" placeholder="DROP TABLE I... " />
+            <marker date="1480081961001" expanded="true" signature="6700:6765" placeholder="DROP TABLE I... " />
+            <marker date="1480081961001" expanded="true" signature="6833:6925" placeholder="DROP TABLE I... " />
+            <marker date="1480081961001" expanded="true" signature="21252:21445" placeholder="SELECT rp.* ${_DB_PREFIX_}recurring_products" />
+            <marker date="1480081961001" expanded="true" signature="21632:21848" placeholder="SELECT rp.* ${_DB_PREFIX_}recurring_products" />
+            <marker date="1480081961001" expanded="true" signature="22043:22190" placeholder="SELECT dp.* ${_DB_PREFIX_}product_disabled_for_recurrence" />
+            <marker date="1480081961001" expanded="true" signature="22392:22764" placeholder="SELECT o.`id... ${_DB_PREFIX_}" />
+            <marker date="1480081961001" expanded="true" signature="28118:28399" placeholder="SELECT rp.* ${_DB_PREFIX_}recurring_products" />
+            <marker date="1480081961001" expanded="true" signature="30991:31196" placeholder="SELECT h.* F... ${_DB_PREFIX_}hash" />
+            <marker date="1480081961001" expanded="true" signature="31493:31701" placeholder="SELECT h.wt_... ${_DB_PREFIX_}hash" />
+            <marker date="1480081961001" expanded="true" signature="33786:34012" placeholder="SELECT h.id_... ${_DB_PREFIX_}hash" />
+            <marker date="1480081961001" expanded="true" signature="34310:34519" placeholder="SELECT COUNT... ${_DB_PREFIX_}orders" />
+            <marker date="1480081961001" expanded="true" signature="34599:34810" placeholder="SELECT COUNT... ${_DB_PREFIX_}orders" />
+            <marker date="1480081961001" expanded="true" signature="34898:36367" placeholder="SELECT DATE_... ${_DB_PREFIX_}" />
+            <marker date="1480081961001" expanded="true" signature="41614:41762" placeholder="SELECT l.id_... ${_DB_PREFIX_}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
