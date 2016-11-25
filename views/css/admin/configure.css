@@ -1,0 +1,31 @@
+.wt-msg {
+    position: relative;
+    margin: 0 0 17px 0;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+.wt-msg.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-left: solid 3px #31708f;
+}
+
+.wt-msg.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-left: solid 3px #8a6d3b;
+}
+
+.wt-msg.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-left: solid 3px #3c763d;
+}
+
+.wt-msg.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-left: solid 3px #e17875;
+}

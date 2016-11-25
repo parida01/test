@@ -1,0 +1,75 @@
+#wtrecurringorder_manager .products_recurring_list {
+    overflow: hidden;
+    padding: 12px 0 0 0;
+}
+
+#wtrecurringorder_manager .products_recurring_list .item {
+    float: left;
+    margin: 0 12px 12px 0;
+    background: #e8d5d5;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid #d3b6b6;
+}
+
+#wtrecurringorder_manager .products_recurring_list .item .inner {
+    overflow: hidden;
+    background: transparent;
+    padding: 4px;
+}
+
+#wtrecurringorder_manager .products_recurring_list .item .inner .image {
+    float: left;
+}
+
+#wtrecurringorder_manager .products_recurring_list .item .inner .image img {
+    float: left;
+    width: 32px;
+    height: 32px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#wtrecurringorder_manager .products_recurring_list .item .inner .info {
+    float: left;
+    padding: 3px 8px;
+}
+
+#wtrecurringorder_manager .products_recurring_list .item .inner .info .caption {
+    overflow: hidden;
+    display: block;
+    margin: 0 0 1px 0;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 14px;
+}
+
+#wtrecurringorder_manager .products_recurring_list .item .inner .info .data {
+    display: block;
+    font-size: 11px;
+    line-height: 11px;
+}
+
+#wtrecurringorder_manager .products_recurring_list .item .inner .remove {
+    position: relative;
+    float: left;
+    width: 32px;
+    height: 32px;
+}
+
+#wtrecurringorder_manager .products_recurring_list .item .inner .remove a {
+    position: absolute;
+    display: block;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    background: url('../../img/remove_32x32.png') center 1px no-repeat;
+    opacity: 0.3;
+    z-index: 2;
+}
+
+#wtrecurringorder_manager .products_recurring_list .item .inner .remove a:hover {
+    opacity: 1;
+}

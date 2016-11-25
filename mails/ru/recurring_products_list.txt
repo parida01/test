@@ -1,0 +1,11 @@
+{foreach $wt_list_products as $product}
+    {$product['reference']}
+
+    {$product['name']}
+
+    {$product['price']}
+
+    {$product['quantity']}
+
+    {$product['price']}
+{/foreach}

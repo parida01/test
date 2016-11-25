@@ -1,0 +1,7 @@
+.rec-box {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    width: 25px !important;
+    height: 25px !important;
+}

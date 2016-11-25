@@ -1,0 +1,15 @@
+New recurrent order from {shop_name}
+
+Hi {firstname} {lastname},
+
+A new recurrent order has been generated on your behalf.
+
+{errors}
+
+You can review your order and finalize the payment on {order_link}
+
+Products list:
+{products_list_txt}
+
+
+{shop_name} powered by PrestaShop

@@ -1,0 +1,8 @@
+Reminder : recurrent order from {shop_name}
+
+Hi {firstname} {lastname},
+
+Your products that might be ordered yesterday are waiting for you.
+
+
+{shop_name} powered by PrestaShop

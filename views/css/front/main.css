@@ -1,0 +1,152 @@
+.wtrecurringorder_confirm .btns {
+    text-align: center;
+}
+
+.wtrecurringorder_confirm .btns .btn {
+    margin: 0 7.5px;
+    padding: 6px 24px
+}
+
+
+.products_recurring_list .item .image,
+.products_recurring_list .item .info {
+    cursor: pointer;
+}
+
+#wtrecurringorder_manager_steps {
+    border: 1px solid #d6d4d4;
+}
+
+#wtrecurringorder_manager_steps .page-subheading {
+    margin: 0;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 1px solid #d6d4d4;
+}
+
+#wtrecurringorder_manager_steps .cart-products-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#wtrecurringorder_manager_steps .cart-products-list .item,
+#wtrecurringorder_manager_steps .cart-product {
+    overflow: hidden;
+    padding: 8px;
+    border-bottom: 1px solid #d6d4d4;
+}
+
+#wtrecurringorder_manager_steps .cart-products-list .item {
+    cursor: pointer;
+}
+
+#wtrecurringorder_manager_steps .cart-products-list .item:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+#wtrecurringorder_manager_steps .cart-products-list .item:hover,
+#wtrecurringorder_manager .cart_products_list .item:hover {
+    background-color: #eeeeee;
+}
+
+#wtrecurringorder_manager_steps .cart-products-list .item .image,
+#wtrecurringorder_manager_steps .cart-product .image {
+    float: left;
+    margin: 0 12px 0 0;
+}
+
+#wtrecurringorder_manager_steps .cart-products-list .item .image img,
+#wtrecurringorder_manager_steps .cart-product .image img {
+    float: left;
+    width: 48px;
+    height: 48px;
+}
+
+#wtrecurringorder_manager_steps .cart-products-list .item .data,
+#wtrecurringorder_manager_steps .cart-product .data {
+    float: left;
+}
+
+#wtrecurringorder_manager_steps .cart-products-list .item .data small,
+#wtrecurringorder_manager_steps .cart-product .data small {
+    display: block;
+}
+
+#wtrecurringorder_manager_steps .product-quantity {
+    overflow: hidden;
+    padding: 8px;
+    border-bottom: 1px solid #d6d4d4;
+}
+
+#wtrecurringorder_manager_steps .product-quantity label {
+    margin: 0;
+    font-weight: normal;
+}
+
+#wtrecurringorder_manager_steps .product-quantity input[type="text"] {
+    width: 30px;
+}
+
+#wtrecurringorder_manager_steps .options .caption {
+    display: block;
+    margin: 0 0 4px 0;
+}
+
+#wtrecurringorder_manager_steps .options {
+    overflow: hidden;
+    padding: 8px;
+    border-bottom: 1px solid #d6d4d4;
+}
+
+#wtrecurringorder_manager_steps .options .option label {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+#wtrecurringorder_manager_steps .option-params {
+    display: none;
+    overflow: hidden;
+    padding: 8px;
+    border-bottom: 1px solid #d6d4d4;
+}
+
+#wtrecurringorder_manager_steps .option-params input[type="text"] {
+    width: 30px;
+}
+
+#wtrecurringorder_manager_steps .actions {
+    overflow: hidden;
+    padding: 8px 4px;
+    text-align: center;
+}
+
+#wtrecurringorder_manager_steps .actions .button {
+    margin: 0 4px;
+}
+
+.wtrecurringorder_products_recurring_manager.message .fancybox-inner {
+    width: auto !important;
+    max-width: 320px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#wtrecurringorder_manager .cart_products_list:hover {
+    cursor: pointer;
+}
+
+#wtrecurringorder_manager .cart_products_list .item {
+    padding: 5px;
+    margin: 0 12px 0;
+}
+
+#wtrecurringorder_manager .cart_products_list .item,
+#wtrecurringorder_manager .cart_products_list .item .image,
+#wtrecurringorder_manager .cart_products_list .item .data {
+    display: inline-block;
+}

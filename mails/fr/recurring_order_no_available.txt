@@ -1,0 +1,8 @@
+New recurrent order from {shop_name}
+
+Hi {firstname} {lastname},
+
+Your recurrent order has not been generated because all recurring products that might be ordered today are no longer available.
+
+
+{shop_name} powered by PrestaShop
